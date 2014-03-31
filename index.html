@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<!--[if IE 7 ]><html class="ie ie7 lte9 lte8 lte7" lang="en-US"><![endif]-->
+<!--[if IE 8]><html class="ie ie8 lte9 lte8" lang="en-US">	<![endif]-->
+<!--[if IE 9]><html class="ie ie9 lte9" lang="en-US"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html class="noIE" lang="en-US">
+    <!--<![endif]-->
+
+    <head>
+        <meta charset="UTF-8">
+        <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+        <meta content="logoby.us" name="author">
+        <link href="images/ico.html" rel="shortcut icon">
+        <title>Whippin</title>
+
+        <!-- Reset CSS -->
+        <link href="css/normalize.css" rel="stylesheet" type="text/css"/>
+
+        <!-- Bootstrap core CSS -->
+        <link href="css/bootstrap.css" rel="stylesheet">
+
+        <!-- Iview Slider CSS -->
+        <link href="css/iview.css" rel="stylesheet">
+
+        <!--	Responsive 3D Menu	-->
+        <link href="css/menu3d.css" rel="stylesheet"/>
+
+        <!-- Animations -->
+        <link href="css/animate.css" rel="stylesheet" type="text/css"/>
+
+        <!-- Custom styles for this template -->
+        <link href="css/custom.css" rel="stylesheet" type="text/css" />
+
+        <!-- Color -->
+        <link href="css/skin/orange-steelblue.css" id="colorstyle" rel="stylesheet">
+
+        <link href="css/style.css" rel="stylesheet">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]> <script src="js/html5shiv.js"></script> <script src="js/respond.min.js"></script> <![endif]-->
+
+        <!-- Bootstrap core JavaScript -->
+        <script src="js/jquery-1.10.2.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/bootstrap-select.js"></script>
+
+        <!-- Custom Scripts -->
+        <script src="js/scripts.js"></script>
+
+        <!-- MegaMenu -->
+        <script src="js/menu3d.js" type="text/javascript"></script>
+
+        <!-- iView Slider -->
+        <script src="js/raphael-min.js" type="text/javascript"></script>
+        <script src="js/jquery.easing.js" type="text/javascript"></script>
+        <script src="js/iview.js" type="text/javascript"></script>
+        <script src="js/retina-1.1.0.min.js" type="text/javascript"></script>
+
+        <!--[if IE 8]>
+            <script type="text/javascript" src="js/selectivizr.js"></script>
+            <![endif]-->
+
+    </head>
+
+    <body>
+        <!-- Header -->
+        <!-- Header -->
+        <header> 
+
+            <div class="f-space20"></div>
+            <!-- Logo and Search -->
+            <div class="container">
+                <div class="row clearfix" style="width: 200px; height: 72px; margin: auto">
+                    <div class="col-lg-12 col-xs-12" style="padding-bottom: 50px;">
+                        <div class="logo"> 
+                            <img src="images/logo.png"/>
+
+                        </div>
+                        <br />
+                    </div>
+                    <!-- end: logo -->
+                    <div class="visible-xs f-space20"></div>
+
+                </div>
+            </div>
+            <!-- end: Logo and Search -->
+            <div class="f-space20"></div>
+            <!-- Menu -->
+            <div class="container">
+                <div class="row clearfix">
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 menu-col">
+                        <div class="menu-heading menuHeadingdropdown"> <span> <i class="fa fa-bars"></i> Categories <i class="fa fa-angle-down"></i></span> </div>
+                        <!-- Mega Menu -->
+                        <div class="menu3dmega vertical menuMegasub" id="menuMega">
+                            <ul>
+                                <!-- Menu Item Links for Mobiles Only -->
+                                <li class="visible-xs"> <a href="index.html"> <i class="fa fa-home"></i> <span>Home</span> <i class="fa fa-angle-right"></i> </a>
+                                    <div class="dropdown-menu flyout-menu"> 
+                                        <!-- Sub Menu -->
+                                        <ul>
+                                            <li><a href="#">Home</a></li>
+                                            <li><a href="#">Products</a></li>
+                                            <li><a href="#">Shops</a></li>
+                                            <li><a href="#">About Us</a></li>
+                                            <li><a href="#">Log In</a></li>
+                                        </ul>
+                                        <!-- end: Sub Menu --> 
+                                    </div>
+                                </li>
+                                <!-- end: Menu Item --> 
+                                <!-- Menu Item for Tablets and Computers Only-->
+                                <li class="hidden-xs"> <a href="#a"> <i class="fa fa-files-o"></i> <span>Under Construction</span> <i class="fa fa-angle-right"></i> </a>
+                                </li>
+                                <!-- end: Menu Item --> 
+                                <!-- Menu Item -->
+                            </ul>
+                        </div>
+                        <!-- end: Mega Menu --> 
+                    </div>
+                    <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 menu-col-2"> 
+                        <!-- Navigation Buttons/Quick Cart for Tablets and Desktop Only -->
+                        <div class="menu-links hidden-xs">
+                            <ul class="nav nav-pills nav-justified">
+                                <li> <a href="index.html"> <span class="hidden-sm">Home</span></a> </li>
+                                <li> <a href="#"> <span class="hidden-sm">Products</span></a> </li>
+                                <li> <a href="#"> <span class="hidden-sm">Shops</span></a> </li>
+                                <li> <a href="#"> <span class="hidden-sm ">About Us</span></a> </li>
+                                <li> <a href="#"> <span class="hidden-sm ">Log In</span></a> </li>
+                                <li class="dropdown"> <a href="#"> <span class="hidden-sm"> Cart </span></a> 
+                                    <!-- Quick Cart -->
+                                    <div class="dropdown-menu quick-cart">
+                                        <div class="qc-row qc-row-heading"> <span class="qc-col-qty">QTY.</span> <span class="qc-col-name">Under Construction</span> <span class="qc-col-price">P0.00</span> </div>
+                                        <div class="qc-row qc-row-item"> <span class="qc-col-qty">0</span> <span class="qc-col-name"><a href="#a"></a></span> <span class="qc-col-price">P0</span> <span class="qc-col-remove"> <i class="fa fa-times fa-fw"></i> </span> </div>
+                                        <div class="qc-row-bottom"><a class="btn qc-btn-viewcart" href="#a">view
+                                                cart</a><a class="btn qc-btn-checkout" href="#a">check
+                                                out</a></div>
+                                    </div>
+                                    <!-- end: Quick Cart --> 
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- end: Navigation Buttons/Quick Cart Tablets and large screens Only --> 
+
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- end: Header -->
+        <!-- end: Header --> 
+        <!-- Products -->
+        <div class="row clearfix f-space30"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 main-column box-block">
+                    <div class="blogpost row">
+                        <div class="blogcontent col-md-12">
+                            <div class="blogimage"> <a href="blog-single.html"> <img src="images/featured/5.jpg" class="ani-image" alt="blog title"> </a> </div>
+                            <div class="col-md-12 col-xs-12 blog-summery"> <a class="color1" href="blog-single.html">
+                                    <br /><b><h1 style="font-size: 25px; font-weight: bold">Jauary Special: Bittersweets' Chocolate Fondue </h1></b>
+                                </a> <hr >
+                                <p> Topped with Chocolate Toppings made from Cinammon.. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <br />
+                    <div class="box-heading"><span>Featured Products</span></div>
+                    <div class="box-content">
+                        <div class="box-products slide" id="productc1">
+                            <div class="carousel-controls"> <a class="carousel-control left" data-slide="prev" href="#productc1"> <i class="fa fa-angle-left fa-fw"></i> </a> <a class="carousel-control right" data-slide="next" href="#productc1"> <i class="fa fa-angle-right fa-fw"></i> </a> </div>
+                            <div class="carousel-inner"> 
+                                <!-- Items Row -->
+                                <div class="item active">
+                                    <div class="row box-product"> 
+                                        <!-- Product -->
+                                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                            <div class="product-block">
+                                                <div class="image">
+                                                    <div class="product-label product-sale"><span>SALE</span></div>
+                                                    <a class="img" href="#"><img alt="product info" src="images/products/product1.jpg" title="product title"></a> </div>
+                                                <div class="product-meta">
+                                                    <div class="name"><a href="#">Chocolate</a></div>
+                                                    <div class="big-price"> <span class="price-new"><span class="sym">P</span>96</span> <span class="price-old"><span class="sym">P</span>119.50</span> </div>
+                                                    <div class="big-btns"> <a class="btn btn-default btn-view pull-left" href="#">View</a> <a class="btn btn-default btn-addtocart pull-right" href="#">Add to
+                                                            Cart</a> </div>
+                                                    <div class="small-price"> <span class="price-new"><span class="sym">P</span>96</span> <span class="price-old"><span class="sym">P</span>119.50</span> </div>
+                                                    <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half-o"></i> <i class="fa fa-star-o"></i> </div>
+                                                    <div class="small-btns">
+                                                        <button class="btn btn-default btn-compare pull-left" data-toggle="tooltip" title="Add to Compare"> <i class="fa fa-retweet fa-fw"></i> </button>
+                                                        <button class="btn btn-default btn-wishlist pull-left" data-toggle="tooltip" title="Add to Wishlist"> <i class="fa fa-heart fa-fw"></i> </button>
+                                                        <button class="btn btn-default btn-addtocart pull-left" data-toggle="tooltip" title="Add to Cart"> <i class="fa fa-shopping-cart fa-fw"></i> </button>
+                                                    </div>
+                                                </div>
+                                                <div class="meta-back"></div>
+                                            </div>
+                                        </div>
+                                        <!-- end: Product --> 
+                                        <!-- Product -->
+                                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                            <div class="product-block">
+                                                <div class="image"> <a class="img" href="#"><img alt="product info" src="images/products/product2.jpg" title="product title"></a> </div>
+                                                <div class="product-meta">
+                                                    <div class="name"><a href="#">Chocolate</a></div>
+                                                    <div class="big-price"> <span class="price-new"><span class="sym">P</span>520</span> </div>
+                                                    <div class="big-btns"> <a class="btn btn-default btn-view pull-left" href="#">View</a> <a class="btn btn-default btn-addtocart pull-right" href="#">Add to
+                                                            Cart</a> </div>
+                                                    <div class="small-price"> <span class="price-new"><span class="sym">P</span>520</span> </div>
+                                                    <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half-o"></i> <i class="fa fa-star-o"></i> </div>
+                                                    <div class="small-btns">
+                                                        <button class="btn btn-default btn-compare pull-left" data-toggle="tooltip" title="Add to Compare"> <i class="fa fa-retweet fa-fw"></i> </button>
+                                                        <button class="btn btn-default btn-wishlist pull-left" data-toggle="tooltip" title="Add to Wishlist"> <i class="fa fa-heart fa-fw"></i> </button>
+                                                        <button class="btn btn-default btn-addtocart pull-left" data-toggle="tooltip" title="Add to Cart"> <i class="fa fa-shopping-cart fa-fw"></i> </button>
+                                                    </div>
+                                                </div>
+                                                <div class="meta-back"></div>
+                                            </div>
+                                        </div>
+                                        <!-- end: Product --> 
+                                        <!-- Product -->
+                                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                            <div class="product-block">
+                                                <div class="image">
+                                                    <div class="product-label product-new"><span>NEW</span></div>
+                                                    <a class="img" href="#"><img alt="product info" src="images/products/product3.jpg" title="product title"></a> </div>
+                                                <div class="product-meta">
+                                                    <div class="name"><a href="#">Chocolate</a></div>
+                                                    <div class="big-price"> <span class="price-new"><span class="sym">P</span>320</span> </div>
+                                                    <div class="big-btns"> <a class="btn btn-default btn-view pull-left" href="#">View</a> <a class="btn btn-default btn-addtocart pull-right" href="#">Add to
+                                                            Cart</a> </div>
+                                                    <div class="small-price"> <span class="price-new"><span class="sym">P</span>320</span> </div>
+                                                    <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half-o"></i> <i class="fa fa-star-o"></i> </div>
+                                                    <div class="small-btns">
+                                                        <button class="btn btn-default btn-compare pull-left" data-toggle="tooltip" title="Add to Compare"> <i class="fa fa-retweet fa-fw"></i> </button>
+                                                        <button class="btn btn-default btn-wishlist pull-left" data-toggle="tooltip" title="Add to Wishlist"> <i class="fa fa-heart fa-fw"></i> </button>
+                                                        <button class="btn btn-default btn-addtocart pull-left" data-toggle="tooltip" title="Add to Cart"> <i class="fa fa-shopping-cart fa-fw"></i> </button>
+                                                    </div>
+                                                </div>
+                                                <div class="meta-back"></div>
+                                            </div>
+                                        </div>
+                                        <!-- end: Product --> 
+                                    </div>
+                                </div>
+                                <!-- end: Items Row --> 
+                                <!-- Items Row -->
+                                <div class="item">
+                                    <div class="row box-product"> 
+                                        <!-- Product -->
+                                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                            <div class="product-block">
+                                                <div class="image"> <a class="img" href="#"><img alt="product info" src="images/products/product2.jpg" title="product title"></a> </div>
+                                                <div class="product-meta">
+                                                    <div class="name"><a href="#">Female Strips Handbag</a></div>
+                                                    <div class="big-price"> <span class="price-new"><span class="sym">P</span>520</span> </div>
+                                                    <div class="big-btns"> <a class="btn btn-default btn-view pull-left" href="#">View</a> <a class="btn btn-default btn-addtocart pull-right" href="#">Add to
+                                                            Cart</a> </div>
+                                                    <div class="small-price"> <span class="price-new"><span class="sym">P</span>520</span> </div>
+                                                    <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half-o"></i> <i class="fa fa-star-o"></i> </div>
+                                                    <div class="small-btns">
+                                                        <button class="btn btn-default btn-compare pull-left" data-toggle="tooltip" title="Add to Compare"> <i class="fa fa-retweet fa-fw"></i> </button>
+                                                        <button class="btn btn-default btn-wishlist pull-left" data-toggle="tooltip" title="Add to Wishlist"> <i class="fa fa-heart fa-fw"></i> </button>
+                                                        <button class="btn btn-default btn-addtocart pull-left" data-toggle="tooltip" title="Add to Cart"> <i class="fa fa-shopping-cart fa-fw"></i> </button>
+                                                    </div>
+                                                </div>
+                                                <div class="meta-back"></div>
+                                            </div>
+                                        </div>
+                                        <!-- end: Product --> 
+                                        <!-- Product -->
+                                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                            <div class="product-block">
+                                                <div class="image">
+                                                    <div class="product-label product-new"><span>NEW</span></div>
+                                                    <a class="img" href="#"><img alt="product info" src="images/products/product3.jpg" title="product title"></a> </div>
+                                                <div class="product-meta">
+                                                    <div class="name"><a href="#">Chocolate</a></div>
+                                                    <div class="big-price"> <span class="price-new"><span class="sym">P</span>320</span> </div>
+                                                    <div class="big-btns"> <a class="btn btn-default btn-view pull-left" href="#">View</a> <a class="btn btn-default btn-addtocart pull-right" href="#">Add to
+                                                            Cart</a> </div>
+                                                    <div class="small-price"> <span class="price-new"><span class="sym">P</span>320</span> </div>
+                                                    <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half-o"></i> <i class="fa fa-star-o"></i> </div>
+                                                    <div class="small-btns">
+                                                        <button class="btn btn-default btn-compare pull-left" data-toggle="tooltip" title="Add to Compare"> <i class="fa fa-retweet fa-fw"></i> </button>
+                                                        <button class="btn btn-default btn-wishlist pull-left" data-toggle="tooltip" title="Add to Wishlist"> <i class="fa fa-heart fa-fw"></i> </button>
+                                                        <button class="btn btn-default btn-addtocart pull-left" data-toggle="tooltip" title="Add to Cart"> <i class="fa fa-shopping-cart fa-fw"></i> </button>
+                                                    </div>
+                                                </div>
+                                                <div class="meta-back"></div>
+                                            </div>
+                                        </div>
+                                        <!-- end: Product --> 
+                                        <!-- Product -->
+                                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                            <div class="product-block">
+                                                <div class="image">
+                                                    <div class="product-label product-sale"><span>SALE</span></div>
+                                                    <a class="img" href="#"><img alt="product info" src="images/products/product1.jpg" title="product title"></a> </div>
+                                                <div class="product-meta">
+                                                    <div class="name"><a href="#">Chocolate</a></div>
+                                                    <div class="big-price"> <span class="price-new"><span class="sym">P</span>96</span> <span class="price-old"><span class="sym">P</span>119.50</span> </div>
+                                                    <div class="big-btns"> <a class="btn btn-default btn-view pull-left" href="#">View</a> <a class="btn btn-default btn-addtocart pull-right" href="#">Add to
+                                                            Cart</a> </div>
+                                                    <div class="small-price"> <span class="price-new"><span class="sym">P</span>96</span> <span class="price-old"><span class="sym">P</span>119.50</span> </div>
+                                                    <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half-o"></i> <i class="fa fa-star-o"></i> </div>
+                                                    <div class="small-btns">
+                                                        <button class="btn btn-default btn-compare pull-left" data-toggle="tooltip" title="Add to Compare"> <i class="fa fa-retweet fa-fw"></i> </button>
+                                                        <button class="btn btn-default btn-wishlist pull-left" data-toggle="tooltip" title="Add to Wishlist"> <i class="fa fa-heart fa-fw"></i> </button>
+                                                        <button class="btn btn-default btn-addtocart pull-left" data-toggle="tooltip" title="Add to Cart"> <i class="fa fa-shopping-cart fa-fw"></i> </button>
+                                                    </div>
+                                                </div>
+                                                <div class="meta-back"></div>
+                                            </div>
+                                        </div>
+                                        <!-- end: Product --> 
+                                    </div>
+                                </div>
+                                <!-- end: Items Row --> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 box-block sidebar">
+                    <div class="box-heading"><span>Specials</span></div>
+                    <div class="box-content">
+                        <div class="box-products slide carousel-fade" id="productc2">
+                            <ol class="carousel-indicators">
+                                <li class="active" data-slide-to="0" data-target="#productc2"></li>
+                                <li class="" data-slide-to="1" data-target="#productc2"></li>
+                                <li class="" data-slide-to="2" data-target="#productc2"></li>
+                            </ol>
+                            <div class="carousel-inner"> 
+                                <!-- item -->
+                                <div class="item active">
+                                    <div class="product-block">
+                                        <div class="image">
+                                            <div class="product-label product-hot"><span>HOT</span></div>
+                                            <a class="img" href="#"><img alt="product info" src="images/products/product1.jpg" title="product title"></a> </div>
+                                        <div class="product-meta">
+                                            <div class="name"><a href="#">chocolate</a></div>
+                                            <div class="big-price"> <span class="price-new"><span class="sym">P</span>96</span> </div>
+                                            <div class="big-btns"> <a class="btn btn-default btn-view pull-left" href="#">View</a> <a class="btn btn-default btn-addtocart pull-right" href="#">Add to
+                                                    Cart</a> </div>
+                                        </div>
+                                        <div class="meta-back"></div>
+                                    </div>
+                                </div>
+                                <!-- end: item --> 
+                                <!-- item -->
+                                <div class="item">
+                                    <div class="product-block">
+                                        <div class="image"> <a class="img" href="#"><img alt="product info" src="images/products/product2.jpg" title="product title"></a> </div>
+                                        <div class="product-meta">
+                                            <div class="name"><a href="#">Chocolate</a></div>
+                                            <div class="big-price"> <span class="price-new"><span class="sym">P</span>654.87</span> </div>
+                                            <div class="big-btns"> <a class="btn btn-default btn-view pull-left" href="#">View</a> <a class="btn btn-default btn-addtocart pull-right" href="#">Add to
+                                                    Cart</a> </div>
+                                        </div>
+                                        <div class="meta-back"></div>
+                                    </div>
+                                </div>
+                                <!-- end: item --> 
+                                <!-- item -->
+                                <div class="item">
+                                    <div class="product-block">
+                                        <div class="image"> <a class="img" href="#"><img alt="product info" src="images/products/product3.jpg" title="product title"></a> </div>
+                                        <div class="product-meta">
+                                            <div class="name"><a href="#">Chocolate</a></div>
+                                            <div class="big-price"> <span class="price-new"><span class="sym">P</span>1600</span> </div>
+                                            <div class="big-btns"> <a class="btn btn-default btn-view pull-left" href="#">View</a> <a class="btn btn-default btn-addtocart pull-right" href="#">Add to
+                                                    Cart</a> </div>
+                                        </div>
+                                        <div class="meta-back"></div>
+                                    </div>
+                                </div>
+                                <!-- end: item --> 
+                            </div>
+                        </div>
+                        <div class="carousel-controls"> <a class="carousel-control left" data-slide="prev" href="#productc2"> <i class="fa fa-angle-left fa-fw"></i> </a> <a class="carousel-control right" data-slide="next" href="#productc2"> <i class="fa fa-angle-right fa-fw"></i> </a> </div>
+                        <div class="nav-bg"></div>
+                    </div>
+                    <br /><br />
+                    <div class="box-heading"><span>Advertisement</span></div>
+                    <div class="box-content">
+                        <img src ="images/bakingneeds.jpg"/>
+                        <br /><br />
+                        <span>
+                            Do you need any baking equipments? Call us now! 9458290
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row clearfix f-space30"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 main-column box-block">
+                    <div class="box-heading"><span>Recent Products</span></div>
+                    <div class="box-content">
+                        <div class="box-products slide" id="productc3">
+                            <div class="carousel-controls"> <a class="carousel-control left" data-slide="prev" href="#productc3"> <i class="fa fa-angle-left fa-fw"></i> </a> <a class="carousel-control right" data-slide="next" href="#productc3"> <i class="fa fa-angle-right fa-fw"></i> </a> </div>
+                            <div class="carousel-inner"> 
+                                <!-- Items Row -->
+                                <div class="item active">
+                                    <div class="row box-product"> 
+                                        <!-- Product -->
+                                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                            <div class="product-block">
+                                                <div class="image">
+                                                    <div class="product-label product-sale"><span>SALE</span></div>
+                                                    <a class="img" href="#"><img alt="product info" src="images/products/product1.jpg" title="product title"></a> </div>
+                                                <div class="product-meta">
+                                                    <div class="name"><a href="#">chocolate</a></div>
+                                                    <div class="big-price"> <span class="price-new"><span class="sym">P</span>96</span> <span class="price-old"><span class="sym">P</span>119.50</span> </div>
+                                                    <div class="big-btns"> <a class="btn btn-default btn-view pull-left" href="#">View</a> <a class="btn btn-default btn-addtocart pull-right" href="#">Add to
+                                                            Cart</a> </div>
+                                                    <div class="small-price"> <span class="price-new"><span class="sym">P</span>96</span> <span class="price-old"><span class="sym">P</span>119.50</span> </div>
+                                                    <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half-o"></i> <i class="fa fa-star-o"></i> </div>
+                                                    <div class="small-btns">
+                                                        <button class="btn btn-default btn-compare pull-left" data-toggle="tooltip" title="Add to Compare"> <i class="fa fa-retweet fa-fw"></i> </button>
+                                                        <button class="btn btn-default btn-wishlist pull-left" data-toggle="tooltip" title="Add to Wishlist"> <i class="fa fa-heart fa-fw"></i> </button>
+                                                        <button class="btn btn-default btn-addtocart pull-left" data-toggle="tooltip" title="Add to Cart"> <i class="fa fa-shopping-cart fa-fw"></i> </button>
+                                                    </div>
+                                                </div>
+                                                <div class="meta-back"></div>
+                                            </div>
+                                        </div>
+                                        <!-- end: Product --> 
+                                        <!-- Product -->
+                                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                            <div class="product-block">
+                                                <div class="image"> <a class="img" href="#"><img alt="product info" src="images/products/product2.jpg" title="product title"></a> </div>
+                                                <div class="product-meta">
+                                                    <div class="name"><a href="#">Female Strips Handbag</a></div>
+                                                    <div class="big-price"> <span class="price-new"><span class="sym">P</span>520</span> </div>
+                                                    <div class="big-btns"> <a class="btn btn-default btn-view pull-left" href="#">View</a> <a class="btn btn-default btn-addtocart pull-right" href="#">Add to
+                                                            Cart</a> </div>
+                                                    <div class="small-price"> <span class="price-new"><span class="sym">P</span>520</span> </div>
+                                                    <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half-o"></i> <i class="fa fa-star-o"></i> </div>
+                                                    <div class="small-btns">
+                                                        <button class="btn btn-default btn-compare pull-left" data-toggle="tooltip" title="Add to Compare"> <i class="fa fa-retweet fa-fw"></i> </button>
+                                                        <button class="btn btn-default btn-wishlist pull-left" data-toggle="tooltip" title="Add to Wishlist"> <i class="fa fa-heart fa-fw"></i> </button>
+                                                        <button class="btn btn-default btn-addtocart pull-left" data-toggle="tooltip" title="Add to Cart"> <i class="fa fa-shopping-cart fa-fw"></i> </button>
+                                                    </div>
+                                                </div>
+                                                <div class="meta-back"></div>
+                                            </div>
+                                        </div>
+                                        <!-- end: Product --> 
+                                        <!-- Product -->
+                                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                            <div class="product-block">
+                                                <div class="image">
+                                                    <div class="product-label product-new"><span>NEW</span></div>
+                                                    <a class="img" href="#"><img alt="product info" src="images/products/product3.jpg" title="product title"></a> </div>
+                                                <div class="product-meta">
+                                                    <div class="name"><a href="#">Chocolate</a></div>
+                                                    <div class="big-price"> <span class="price-new"><span class="sym">P</span>320</span> </div>
+                                                    <div class="big-btns"> <a class="btn btn-default btn-view pull-left" href="#">View</a> <a class="btn btn-default btn-addtocart pull-right" href="#">Add to
+                                                            Cart</a> </div>
+                                                    <div class="small-price"> <span class="price-new"><span class="sym">P</span>320</span> </div>
+                                                    <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half-o"></i> <i class="fa fa-star-o"></i> </div>
+                                                    <div class="small-btns">
+                                                        <button class="btn btn-default btn-compare pull-left" data-toggle="tooltip" title="Add to Compare"> <i class="fa fa-retweet fa-fw"></i> </button>
+                                                        <button class="btn btn-default btn-wishlist pull-left" data-toggle="tooltip" title="Add to Wishlist"> <i class="fa fa-heart fa-fw"></i> </button>
+                                                        <button class="btn btn-default btn-addtocart pull-left" data-toggle="tooltip" title="Add to Cart"> <i class="fa fa-shopping-cart fa-fw"></i> </button>
+                                                    </div>
+                                                </div>
+                                                <div class="meta-back"></div>
+                                            </div>
+                                        </div>
+                                        <!-- end: Product --> 
+                                        <!-- Product -->
+                                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                            <div class="product-block">
+                                                <div class="image">
+                                                    <div class="product-label product-sale"><span>SALE</span></div>
+                                                    <a class="img" href="#"><img alt="product info" src="images/products/product1.jpg" title="product title"></a> </div>
+                                                <div class="product-meta">
+                                                    <div class="name"><a href="#">chocolate</a></div>
+                                                    <div class="big-price"> <span class="price-new"><span class="sym">P</span>96</span> <span class="price-old"><span class="sym">P</span>119.50</span> </div>
+                                                    <div class="big-btns"> <a class="btn btn-default btn-view pull-left" href="#">View</a> <a class="btn btn-default btn-addtocart pull-right" href="#">Add to
+                                                            Cart</a> </div>
+                                                    <div class="small-price"> <span class="price-new"><span class="sym">P</span>96</span> <span class="price-old"><span class="sym">P</span>119.50</span> </div>
+                                                    <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half-o"></i> <i class="fa fa-star-o"></i> </div>
+                                                    <div class="small-btns">
+                                                        <button class="btn btn-default btn-compare pull-left" data-toggle="tooltip" title="Add to Compare"> <i class="fa fa-retweet fa-fw"></i> </button>
+                                                        <button class="btn btn-default btn-wishlist pull-left" data-toggle="tooltip" title="Add to Wishlist"> <i class="fa fa-heart fa-fw"></i> </button>
+                                                        <button class="btn btn-default btn-addtocart pull-left" data-toggle="tooltip" title="Add to Cart"> <i class="fa fa-shopping-cart fa-fw"></i> </button>
+                                                    </div>
+                                                </div>
+                                                <div class="meta-back"></div>
+                                            </div>
+                                        </div>
+                                        <!-- end: Product --> 
+                                    </div>
+                                </div>
+                                <!-- end: Items Row --> 
+                                <!-- Items Row -->
+                                <div class="item">
+                                    <div class="row box-product"> 
+                                        <!-- Product -->
+                                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                            <div class="product-block">
+                                                <div class="image"> <a class="img" href="#"><img alt="product info" src="images/products/product2.jpg" title="product title"></a> </div>
+                                                <div class="product-meta">
+                                                    <div class="name"><a href="#">Female Strips Handbag</a></div>
+                                                    <div class="big-price"> <span class="price-new"><span class="sym">P</span>520</span> </div>
+                                                    <div class="big-btns"> <a class="btn btn-default btn-view pull-left" href="#">View</a> <a class="btn btn-default btn-addtocart pull-right" href="#">Add to
+                                                            Cart</a> </div>
+                                                    <div class="small-price"> <span class="price-new"><span class="sym">P</span>520</span> </div>
+                                                    <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half-o"></i> <i class="fa fa-star-o"></i> </div>
+                                                    <div class="small-btns">
+                                                        <button class="btn btn-default btn-compare pull-left" data-toggle="tooltip" title="Add to Compare"> <i class="fa fa-retweet fa-fw"></i> </button>
+                                                        <button class="btn btn-default btn-wishlist pull-left" data-toggle="tooltip" title="Add to Wishlist"> <i class="fa fa-heart fa-fw"></i> </button>
+                                                        <button class="btn btn-default btn-addtocart pull-left" data-toggle="tooltip" title="Add to Cart"> <i class="fa fa-shopping-cart fa-fw"></i> </button>
+                                                    </div>
+                                                </div>
+                                                <div class="meta-back"></div>
+                                            </div>
+                                        </div>
+                                        <!-- end: Product --> 
+                                        <!-- Product -->
+                                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                            <div class="product-block">
+                                                <div class="image">
+                                                    <div class="product-label product-new"><span>NEW</span></div>
+                                                    <a class="img" href="#"><img alt="product info" src="images/products/product3.jpg" title="product title"></a> </div>
+                                                <div class="product-meta">
+                                                    <div class="name"><a href="#">Chocolate</a></div>
+                                                    <div class="big-price"> <span class="price-new"><span class="sym">P</span>320</span> </div>
+                                                    <div class="big-btns"> <a class="btn btn-default btn-view pull-left" href="#">View</a> <a class="btn btn-default btn-addtocart pull-right" href="#">Add to
+                                                            Cart</a> </div>
+                                                    <div class="small-price"> <span class="price-new"><span class="sym">P</span>320</span> </div>
+                                                    <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half-o"></i> <i class="fa fa-star-o"></i> </div>
+                                                    <div class="small-btns">
+                                                        <button class="btn btn-default btn-compare pull-left" data-toggle="tooltip" title="Add to Compare"> <i class="fa fa-retweet fa-fw"></i> </button>
+                                                        <button class="btn btn-default btn-wishlist pull-left" data-toggle="tooltip" title="Add to Wishlist"> <i class="fa fa-heart fa-fw"></i> </button>
+                                                        <button class="btn btn-default btn-addtocart pull-left" data-toggle="tooltip" title="Add to Cart"> <i class="fa fa-shopping-cart fa-fw"></i> </button>
+                                                    </div>
+                                                </div>
+                                                <div class="meta-back"></div>
+                                            </div>
+                                        </div>
+                                        <!-- end: Product --> 
+                                        <!-- Product -->
+                                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                            <div class="product-block">
+                                                <div class="image">
+                                                    <div class="product-label product-sale"><span>SALE</span></div>
+                                                    <a class="img" href="#"><img alt="product info" src="images/products/product1.jpg" title="product title"></a> </div>
+                                                <div class="product-meta">
+                                                    <div class="name"><a href="#">chocolate</a></div>
+                                                    <div class="big-price"> <span class="price-new"><span class="sym">P</span>96</span> <span class="price-old"><span class="sym">P</span>119.50</span> </div>
+                                                    <div class="big-btns"> <a class="btn btn-default btn-view pull-left" href="#">View</a> <a class="btn btn-default btn-addtocart pull-right" href="#">Add to
+                                                            Cart</a> </div>
+                                                    <div class="small-price"> <span class="price-new"><span class="sym">P</span>96</span> <span class="price-old"><span class="sym">P</span>119.50</span> </div>
+                                                    <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half-o"></i> <i class="fa fa-star-o"></i> </div>
+                                                    <div class="small-btns">
+                                                        <button class="btn btn-default btn-compare pull-left" data-toggle="tooltip" title="Add to Compare"> <i class="fa fa-retweet fa-fw"></i> </button>
+                                                        <button class="btn btn-default btn-wishlist pull-left" data-toggle="tooltip" title="Add to Wishlist"> <i class="fa fa-heart fa-fw"></i> </button>
+                                                        <button class="btn btn-default btn-addtocart pull-left" data-toggle="tooltip" title="Add to Cart"> <i class="fa fa-shopping-cart fa-fw"></i> </button>
+                                                    </div>
+                                                </div>
+                                                <div class="meta-back"></div>
+                                            </div>
+                                        </div>
+                                        <!-- end: Product --> 
+                                        <!-- Product -->
+                                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                            <div class="product-block">
+                                                <div class="image">
+                                                    <div class="product-label product-sale"><span>SALE</span></div>
+                                                    <a class="img" href="#"><img alt="product info" src="images/products/product1.jpg" title="product title"></a> </div>
+                                                <div class="product-meta">
+                                                    <div class="name"><a href="#">chocolate</a></div>
+                                                    <div class="big-price"> <span class="price-new"><span class="sym">P</span>96</span> <span class="price-old"><span class="sym">P</span>119.50</span> </div>
+                                                    <div class="big-btns"> <a class="btn btn-default btn-view pull-left" href="#">View</a> <a class="btn btn-default btn-addtocart pull-right" href="#">Add to
+                                                            Cart</a> </div>
+                                                    <div class="small-price"> <span class="price-new"><span class="sym">P</span>96</span> <span class="price-old"><span class="sym">P</span>119.50</span> </div>
+                                                    <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half-o"></i> <i class="fa fa-star-o"></i> </div>
+                                                    <div class="small-btns">
+                                                        <button class="btn btn-default btn-compare pull-left" data-toggle="tooltip" title="Add to Compare"> <i class="fa fa-retweet fa-fw"></i> </button>
+                                                        <button class="btn btn-default btn-wishlist pull-left" data-toggle="tooltip" title="Add to Wishlist"> <i class="fa fa-heart fa-fw"></i> </button>
+                                                        <button class="btn btn-default btn-addtocart pull-left" data-toggle="tooltip" title="Add to Cart"> <i class="fa fa-shopping-cart fa-fw"></i> </button>
+                                                    </div>
+                                                </div>
+                                                <div class="meta-back"></div>
+                                            </div>
+                                        </div>
+                                        <!-- end: Product --> 
+                                    </div>
+                                </div>
+                                <!-- end: Items Row --> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end: Products --> 
+        <div class="row clearfix f-space30"></div>
+        <!-- footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3 col-xs-12 shopinfo">
+                        <h4 class="title">Whippin</h4>
+                        <p> Whippin is an online dessert marketplace that envisions to provide you a new way of setting your dessert shop online; it envisions to help dessert lovers in their conquest to finding the most delicious dessert. Most of today's sweets in the market are done at home and, most sites in the Metro require you to have stalls or shops to be able to gain a page on their site. We want to change that way. In Whippin, you are not only making sweets as a hobby but also making it as your income at the comfort of your home.</p>
+                    </div>
+                    <div class="col-sm-3 col-xs-12 footermenu">
+                        <h4 class="title">Sitemap</h4>
+                        <ul>
+                            <li class="item"> <a href="#a">Home</a></li>
+                            <li class="item"> <a href="#a">Products</a></li>
+                            <li class="item"> <a href="#a">Shops</a></li>
+                            <li class="item"> <a href="#a">About Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3 col-xs-12">
+
+                    </div>
+                    <div class="col-sm-3 col-xs-12 getintouch">
+                        <h4 class="title">get in touch</h4>
+                        <ul>
+                            <li>
+                                <div class="icon"><i class="fa fa-map-marker fa-fw"></i></div>
+                                <div class="c-info"> <span>2401 Taft Avenue
+                                        Manila, Philippines</span></div>
+                            </li>
+                            <li>
+                                <div class="icon"><i class="fa fa-envelope-o fa-fw"></i></div>
+                                <div class="c-info"> <span>Email Us At:<br>
+                                        <a href="#a">whippinph@gmail.com</a></span></div>
+                            </li>
+                            <li>
+                                <div class="icon"><i class="fa fa-phone fa-fw"></i></div>
+                                <div class="c-info"> <span>Contact Number:<br>
+                                        <a href="#a">09069089406</a></span></div>
+                            </li>
+                        </ul>
+                        <div class="social-icons">
+                            <ul>
+                                <li class="icon google-plus"><a href="#a"><i class="fa fa-google-plus fa-fw"></i></a></li>
+                                <li class="icon linkedin"><a href="#a"><i class="fa fa-linkedin fa-fw"></i></a></li>
+                                <li class="icon twitter"><a href="#a"><i class="fa fa-twitter fa-fw"></i></a></li>
+                                <li class="icon facebook"><a href="#a"><i class="fa fa-facebook fa-fw"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyrights">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-sm-8 col-xs-12"> <span class="copytxt">&copy; Copyright 2013 by Whippin -  All rights reserved</span> </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- end: footer --> 
+
+        <!-- Style Switcher JS --> 
+        <script src="js/style-switch.js" type="text/javascript"></script>
+        <script>
+
+            (function(P) {
+                "use strict";
+                P('#menuMega').menu3d();
+                P('#iview').iView({
+                    pauseTime: 10000,
+                    pauseOnHover: true,
+                    directionNavHoverOpacity: 0.6,
+                    timer: "360Bar",
+                    timerBg: '#2da5da',
+                    timerColor: '#fff',
+                    timerOpacity: 0.9,
+                    timerDiameter: 20,
+                    timerPadding: 1,
+                    touchNav: true,
+                    timerStroke: 2,
+                    timerBarStrokeColor: '#fff'
+                });
+
+                P('.quickbox').carousel({
+                    interval: 10000
+                });
+                P('#monthly-deals').carousel({
+                    interval: 3000
+                });
+                P('#productc2').carousel({
+                    interval: 4000
+                });
+                P('#tweets').carousel({
+                    interval: 5000
+                });
+            })(jQuery);
+
+
+
+        </script>
+    </body>
+</html>
